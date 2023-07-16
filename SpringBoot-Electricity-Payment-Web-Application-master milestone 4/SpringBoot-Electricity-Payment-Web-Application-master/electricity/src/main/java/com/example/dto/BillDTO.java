@@ -1,0 +1,21 @@
+package com.example.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class BillDTO {
+  private Long id;
+  private double amount;
+  // Add any additional properties as needed
+
+  // Constructors, getters, and setters
+
+
+
+}
